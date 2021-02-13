@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:shopping_car_app/models/category-list-item.model.dart';
+import '../models/category-list-item.model.dart';
 import '../settings.dart';
 
 class CategoryRepository {

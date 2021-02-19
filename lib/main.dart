@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopping_car_app/blocs/home.bloc.dart';
-import 'package:shopping_car_app/ui/android/pages/home.page.dart';
+import 'package:shopping_car_app/ui/android/pages/tabs.page.dart';
 
 void main() {
   runApp(MyApp());
@@ -32,7 +32,10 @@ class Main extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: DefaultTabController(
+        length: 3,
+        child: TabsPage(),
+      ),
     );
   }
 }

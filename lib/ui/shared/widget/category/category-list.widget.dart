@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:flutter/widgets.dart';
 import 'package:shopping_car_app/models/category-list-item.model.dart';
 import 'package:shopping_car_app/ui/shared/widget/category/category-card.widget.dart';
